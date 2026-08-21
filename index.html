@@ -40,6 +40,7 @@ main{
     <h1> Hackearam a nossa mente? A psicologia por trás das mecânicas mais viciantes dos jogos</h1>
     <p>Oie, aqui é a Alice e a Sophia! Sejam bem-vindos ao nosso blog. </p> <p> Vamos falar um pouco sobre o porque os jogos online 
     são tão viciantes, e o como isso impacta na nossa saúde mental.</p>
+    <p>Gostou do nosso blog? Curte aí!<button>❤️<span>0</span></button></h3>
     </header>
 
     <main>
@@ -93,9 +94,17 @@ main{
 <h3>A ilusão da evolução constante e o medo de ficar para trás</h2>
     <img src="sophia.jpg" alt="uma ilustração em estilo cartoon que mostra um garoto jogando videogame no computador em seu quarto. A tela do monitor exibe uma mensagem dizendo "HACKED YOUR BRAIN", enquanto vários ícones de recompensas (como corações, moedas e blocos de XP) flutuam ao redor de sua cabeça."> 
 <p>Já sentiu aquele peso no peito só de pensar em perder o login diário ou deixar passar o Passe de Batalha da temporada? Isso se chama FOMO (Fear of Missing Out, ou o medo de ficar de fora). Os jogos modernos são desenhados para fazer você sentir que, se parar de jogar por alguns dias, vai perder recompensas exclusivas e ficar para trás em relação aos seus amigos. Além disso, as barras de progresso, conquistas e níveis criam uma sensação contínua de evolução que muitas vezes falta na rotina diária. Aos poucos, a diversão dá lugar ao compromisso, e o jogo deixa de ser um momento de descanso para se transformar em uma segunda jornada de trabalho.</p>
-
-
     </main>
-
 </body>
+<script>
+    const botao = document.querySelector
+    ("button");
+    botao.addEventListener("click", botaoClicado);
+    
+    function botaoClicado() {
+    console.log("fui clicado");
+    let texto = botao.querySelector("span");
+    texto.textContent++;
+    }
+</script>
 </html>
